@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="transaction.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="flex_box">
+            <img class="image" src="https://image.freepik.com/free-vector/modern-money-logo-design_23-2147886257.jpg" />
+            <div class="flex">
+                <a class="link" href="./index.html">Home</a>
+                <a class="link" href="">Features</a>
+                <a class="link" href="">Contact Us</a>   
+            </div>    
+        </div>
+    </nav>
+        <div class="background">
+        <table class="tab">
+            <tr class="row">
+                <th>id</th>
+                <th>Name</th>
+                <th>Balance</th>
+                <th>Amount Transferred</th>
+            </tr>   
+        </table>
+        <form id="myform" style="text-align: center; margin-bottom: 20px;">
+            <div style="text-align: center; margin-bottom:20px;">
+                <label style="font-size:20px;" for="name">Name</label><br />
+                <input type="text" name="name" id="sender" /> 
+            </div>
+            <div style="text-align: center; margin-bottom:20px;">
+                <label style="font-size:20px;" for="name">Amount</label><br />
+                <input type="number" name="name" id="amount" placeholder="Enter Your Amount to transfer" /> 
+            </div>
+            <div style="text-align: center; margin-bottom:20px;">
+                <label style="font-size:20px;" for="name">To Name</label><br />
+                <input type="text" name="name" id="reciever" placeholder="Enter recipient name" /> 
+            </div>
+            <div style="text-align: center; margin-bottom:40px;">
+                <input type="submit" id="action" class="button" />
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./data.js"></script>
+<script type="module" src="./transactions.js"></script>
+
+</html>

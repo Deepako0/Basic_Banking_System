@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg-container{
+    background-image: radial-gradient(black,white);
+    background-size: cover;
+    height:100vh;
+}
+
+.image1{
+    width:50%;
+    height: 35%;
+}
+
+.images{
+    width:50%;
+    height: 35%;
+}
+
+.heading{
+    color:white;
+    padding-left:20px;
+    padding-top:10px;
+    cursor: pointer;
+}
+
+
+
+.bg_flex{
+    text-align:center;
+    padding-top:120px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.flex_box{
+    display:flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    font-size:20px;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.image{
+    height:80px;
+    padding:10px;
+    border-radius:50px;
+}
+
+

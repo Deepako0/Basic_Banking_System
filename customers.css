@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}.background{
+    background-image: url('https://img.freepik.com/free-photo/closeup-photo-lady-t-shirt-sitting-white-table-which-is-located-full-coins-jar-with-inscription-credit_454047-5437.jpg?size=338&ext=jpg');
+    height: 100vh;
+    background-size:cover;
+}
+
+.tab{
+    width:100%;
+    text-align:center;
+    background-color:blue;
+    font-size:30px;
+    margin-top:30px;
+    color:white;
+    /* position:absolute;
+    top:20%;  */
+}
+nav{
+    background-color: black;
+}
+table, th, td {
+    border: 1px solid black !important;
+  }
+  .flex{
+    display:flex;
+    align-items: center;
+}
+.flex_box{
+    display:flex;
+    justify-content: space-between;
+}
+.image{
+    height:80px;
+    padding:10px;
+    border-radius:50px;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    font-size:20px;
+}
+.row{
+    margin-bottom:30px;
+}
